@@ -1,0 +1,52 @@
+# Game configuration and constants
+
+# Screen settings
+WINDOW_WIDTH = 800
+WINDOW_HEIGHT = 600
+CELL_SIZE = 20
+
+# Grid settings
+GRID_WIDTH = WINDOW_WIDTH // CELL_SIZE
+GRID_HEIGHT = WINDOW_HEIGHT // CELL_SIZE
+
+# Game settings
+INITIAL_FPS = 10
+MAX_FPS = 22
+
+# Level / difficulty settings
+FOODS_PER_LEVEL = 5
+ROBOT_LEVEL = 2
+SPECIAL_FOOD_LEVEL = 3
+
+# Robot snake settings
+ROBOT_RESPAWN_DELAY_MS = 30000
+ROBOT_MOVE_INTERVAL_MS = 250
+
+# Special food settings
+SPECIAL_FOOD_DURATION_MS = 7000
+SLOW_MOTION_DURATION_MS = 6000
+SLOW_MOTION_FPS = 6
+INVINCIBILITY_DURATION_MS = 6000
+
+# Colors
+BLACK = (20, 20, 20)
+GREEN = (0, 200, 0)
+DARK_GREEN = (0, 120, 0)
+RED = (220, 50, 50)
+WHITE = (240, 240, 240)
+GRAY = (70, 70, 70)
+
+BLUE = (70, 130, 255)
+PURPLE = (170, 80, 220)
+YELLOW = (240, 210, 70)
+ORANGE = (255, 150, 50)
+CYAN = (80, 220, 220)
+PINK = (255, 110, 180)
+
+# Directions
+UP = (0, -1)
+DOWN = (0, 1)
+LEFT = (-1, 0)
+RIGHT = (1, 0)
+
+DIRECTIONS = [UP, DOWN, LEFT, RIGHT]

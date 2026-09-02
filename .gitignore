@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment / secrets
+.env
+.env.*
+
+# Testing / cache
+.pytest_cache/
+.coverage
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Development backups
+retro_snake_game/backups_before_update/
+retro_snake_game/src/*_backup*.py
+
+# Runtime-generated data
+retro_snake_game/high_score.txt
